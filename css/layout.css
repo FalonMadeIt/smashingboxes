@@ -1,0 +1,140 @@
+/*********** MAIN **********/
+* {
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/*********** HERO PAGE **********/
+.page-header{
+  width:100%;
+  position:fixed;
+  background-color:#AE1F58;
+  display:block;
+  z-index:9;
+  padding:0.5em 3em;
+
+
+}
+
+.page-logo{
+  float:left;
+  max-height:3em;
+
+
+}
+
+.page-nav{
+  float:right;
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+  text-transform:uppercase;
+  margin-top:1em;
+
+}
+
+.page-nav li{
+  display:inline-block;
+  text-decoration:none;
+  padding-bottom:0.3em;
+  margin-left:1em;
+}
+.page-nav li:hover{
+  border-bottom:1px solid white;
+}
+
+.hero{
+  min-height:600px;
+  background-color:#EB1767;
+}
+.container{
+  margin:auto;
+  padding: 10% 2%;
+  max-width:600px;
+}
+
+.intro{
+  color:white;
+  font-size:2em;
+  font-weight:bold;
+  line-height:1.2em;
+
+}
+.desc{
+  color:white;
+  padding-top:2em;
+  line-height:1.7em;
+
+}
+.feature{
+  display:block;
+  position:relative;
+  left:-25%;
+  padding-top:4em;
+  max-width:150%;
+  z-index:0;
+
+}
+
+.btn{
+  background-color:#AE1F58;
+  color:white;
+  cursor:pointer;
+  display:block;
+  margin:auto;
+  width:15%;
+  text-align:center;
+  border-radius:10%;
+  padding:1em;
+
+
+}
+.btn:hover{
+  background-color:white;
+  color:#EB1767;
+}
+
+  /*********** IMAGE PAGE **********/
+
+.img-section{
+    background-image:url("../img/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:black;
+    background-attachment: fixed;
+}
+
+p span{
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*********** RESPONSIVE **********/
