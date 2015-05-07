@@ -7,8 +7,14 @@ body{
   font-family: 'Montserrat', sans-serif;
 
 }
-
-
+a{
+  cursor:pointer;
+  color:#EB1767;
+  text-decoration:none;
+}
+a:hover{
+  color:#C4C4C4;
+}
 
 /*********** HERO PAGE **********/
 .page-header{
@@ -24,7 +30,7 @@ body{
 
 .page-logo{
   float:left;
-  max-height:3em;
+  max-height:5em;
 
 
 }
@@ -42,21 +48,23 @@ body{
 .page-nav li{
   display:inline-block;
   text-decoration:none;
+  padding-top:0.6em;
   padding-bottom:0.3em;
   margin-left:1em;
 }
 .page-nav li:hover{
-  border-bottom:1px solid white;
+  border-bottom:2px solid white;
 }
 
 .hero{
   min-height:600px;
   background-color:#EB1767;
+  top-margin:150px;
 }
 .container{
   margin:auto;
   padding: 10% 2%;
-  max-width:600px;
+  max-width:60%;
 }
 
 .intro{
@@ -64,6 +72,7 @@ body{
   font-size:2em;
   font-weight:bold;
   line-height:1.2em;
+  text-transform:uppercase;
 
 }
 .desc{
@@ -116,25 +125,89 @@ p span{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*********** BANNER **********/
+.grey-banner{
+  background-color:#292627;
+  height:200px;
+  width:100%;
 
 }
+.banner-img{
+  display:block;
+  margin: 0 auto;
+  width:813px;
+  height:200px;
+}
+
+.white-block{
+  background-color:white;
+  margin: 0 auto;
+  width:813px;
+  height:200px;
+}
+
+.affect{
+  background-color:#EB1767;
+  width:0;
+  height:200px;
+  transition: width 1s;
+
+}
+.affect:hover {
+    width:100%;
+}
+/*********** ABOUT PAGE **********/
+.about-section{
+  height:800px;
+}
+
+.about-intro{
+  color:#4B4B4D;
+  font-size:2em;
+  font-weight:bold;
+  line-height:1.2em;
+  text-transform:uppercase;
+
+}
+.about-desc{
+  color:#626366;
+  padding-top:2em;
+  line-height:1.7em;
+}
+
+hr{
+  margin:5em;
+}
+
+.mentors li{
+  display:inline-block;
+  width:55px;
+  width: 23%;
+
+}
+.mentors li img{
+  height:150px;
+}
+
+
+
+/*********** APPLY PAGE **********/
+
+
+
+
+
+
+/*********** CONTACT PAGE **********/
+
+
+
+
+
+/*********** FOOTER PAGE **********/
+
+
+
+
+
 /*********** RESPONSIVE **********/
