@@ -158,7 +158,7 @@ p span{
 }
 /*********** ABOUT PAGE **********/
 .about-section{
-  height:800px;
+  height:1000px;
 }
 
 .about-intro{
@@ -193,19 +193,41 @@ hr{
 
 /*********** APPLY PAGE **********/
 
-
+.apply-section{
+  background-color:#F4F4F4;
+  }
 
 
 
 
 /*********** CONTACT PAGE **********/
+.contact-container{
+  margin-left:50%;
+  /*padding: 10% 2%;*/
+  max-width:50%;
+  height:500px;
+}
 
+.contact-section{
+  background-image:url("../img/map.png");
+  height:500px;
+}
 
+.info-box{
+  background-color:rgba(233,0,0,0.5);
+}
 
-
+.contact-desc{
+  color:white;
+  padding-top:1em;
+  line-height:1.7em;
+}
 
 /*********** FOOTER PAGE **********/
-
+.footer{
+  background-color:#292627;
+  height:200px;
+}
 
 
 
